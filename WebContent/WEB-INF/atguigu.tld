@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<description>我的自定义标签</description>
+	<display-name>atguigu core</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>atguigu</short-name>
+	<uri>http://www.atguigu.com/tag</uri>
+
+	<tag>
+		<description>在页面上显示消息</description>
+		<name>showMessage</name>
+		<tag-class>com.atguigu.tag.ShowMessage</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+</taglib>
